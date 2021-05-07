@@ -1,0 +1,5 @@
+https://link-shortener-v2.web.app/
+
+//FORMAT BAZA DE DATE:
+//Collection [links] -> Doc [links_doc] - > map_1, map_2, map_3...
+

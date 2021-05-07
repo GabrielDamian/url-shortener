@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.notfound_body {
+  color: red;
+  height: 100vh;
+  width: 100%;
+  background-image: url("/src/images/NotFoundBg.png"),
+    linear-gradient(to right, #ffd6ad, #ffc891, #ffba75, #feab5a, #fd9c3d);
+  background-position: center;
+  background-size: cover;
+}
+.notfound-content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.notfound-content h2 {
+  margin: 20px 0px;
+}
+.notfound-content p {
+  margin: 5px 0px;
+}
+.notfound-content button {
+  margin-top: 5px;
+  padding: 8px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-weight: 600;
+}
+
+.notfound-content button:hover {
+  border: 2px solid red;
+  transition-property: border;
+  transition-duration: 0.5s;
+}
